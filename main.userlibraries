@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="org.openjfx:javafx-base:11">
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-mac.jar" />
+  </library>
+  <library name="org.openjfx:javafx-fxml:11">
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-fxml/11/javafx-fxml-11.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-fxml/11/javafx-fxml-11-mac.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-controls/11/javafx-controls-11.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-controls/11/javafx-controls-11-mac.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-graphics/11/javafx-graphics-11-mac.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11.jar" />
+    <archive path="/Users/tomas/.m2/repository/org/openjfx/javafx-base/11/javafx-base-11-mac.jar" />
+  </library>
+</eclipse-userlibraries>
+

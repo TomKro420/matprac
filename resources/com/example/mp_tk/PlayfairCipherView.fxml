@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="381.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.mp_tk.PlayfairCipherController">
+    <children>
+        <VBox prefHeight="119.0" prefWidth="600.0">
+            <children>
+                <Label prefHeight="39.0" prefWidth="600.0" text="                 Zadej text a poté vyber jedno ze dvou tlačítek podle toho jestli chceš zašifrovat nebo rozšifrovat" />
+                <TextArea fx:id="TextAreaBefore" prefHeight="87.0" prefWidth="600.0" text="kkkk" />
+            </children>
+        </VBox>
+        <HBox prefHeight="30.0" prefWidth="600.0">
+            <children>
+                <Label prefHeight="37.0" prefWidth="119.0" text="Zadej Heslo(klíč):">
+                    <HBox.margin>
+                        <Insets left="150.0" />
+                    </HBox.margin>
+                    <padding>
+                        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                    </padding>
+                </Label>
+                <TextField fx:id="TextFieldKey" />
+            </children>
+        </HBox>
+        <HBox prefHeight="100.0" prefWidth="200.0">
+            <children>
+                <BorderPane prefHeight="200.0" prefWidth="300.0">
+                    <center>
+                        <Button fx:id="btnCipher" mnemonicParsing="false" onAction="#CipherButtonClickHandler" prefHeight="50.0" prefWidth="100.0" text="Zašifrovat" BorderPane.alignment="CENTER" />
+                    </center>
+                </BorderPane>
+                <BorderPane prefHeight="200.0" prefWidth="300.0">
+                    <center>
+                        <Button fx:id="btnDeCipher" mnemonicParsing="false" onAction="#DeCipherButtonClickHandler" prefHeight="50.0" prefWidth="100.0" text="Rozšifrovat" BorderPane.alignment="CENTER" />
+                    </center>
+                </BorderPane>
+            </children>
+        </HBox>
+        <Label prefHeight="39.0" prefWidth="104.0" text="Výpis tveho textu:" />
+        <TextArea fx:id="TextAreaAfter" prefHeight="87.0" prefWidth="600.0" />
+    </children>
+</VBox>
